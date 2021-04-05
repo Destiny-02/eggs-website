@@ -1,0 +1,65 @@
+body{
+	font-family:Verdana;
+	background-color:#e8e8fc; /* light blue */
+	color:#131363
+}
+
+div.content {
+	width:750px;
+	margin:auto;
+}
+
+div.navigation {
+	background-color:#3a3a9e; /* dark blue*/
+	color:#ffffff;
+	padding:10px;
+	text-align:center;
+}
+
+div.main {
+	background-color:#ffffff;
+	padding:10px;
+}
+
+div.footer {
+	background-color: #3a3a9e; /* medium blue*/
+	padding:10px;
+	text-align:right;
+}
+
+div.center_it {
+	text-align:center;
+}
+
+div.image_info {
+	text-align:center;
+}
+
+div.cap_pic {	
+	float:left;
+}
+
+div.caption {
+	width:350px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+}
+
+div.image_description {
+	font-size:12px;
+	font-style:italic;
+	text-align:left;
+}
+
+/* Navigation Links */ 
+a.nav:link{color:#ffffff;}
+a.nav:visited{color:#ffffff;}
+a.nav:hover{color:#f9a21f;} /* gold */
+
+/* Page Links */ 
+a{text-decoration:none;}
+a:visited{color:#131363;} /* dark blue*/
+a:link{color:#131363;} /* dark blue*/
+a:hover{color:#f9a21f;} /* gold */
